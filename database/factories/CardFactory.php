@@ -7,7 +7,6 @@ use PartridgeRocks\LaraCards\Models\Card;
 
 class CardFactory extends Factory
 {
-
     protected $model = Card::class;
 
     public function definition()
@@ -17,4 +16,3 @@ class CardFactory extends Factory
         ];
     }
 }
-

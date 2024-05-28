@@ -10,5 +10,4 @@ class Card extends Model
 {
     use HasFactory;
     use SoftDeletes;
-
 }
