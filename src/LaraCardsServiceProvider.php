@@ -1,12 +1,12 @@
 <?php
 
-namespace partridge-rocks\Laracards;
+namespace PartridgeRocks\LaraCards;
 
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use partridge-rocks\Laracards\Commands\LaracardsCommand;
+use PartridgeRocks\Laracards\Commands\LaraCardsCommand;
 
-class LaracardsServiceProvider extends PackageServiceProvider
+class LaraCardsServiceProvider extends PackageServiceProvider
 {
     public function configurePackage(Package $package): void
     {

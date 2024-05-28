@@ -1,10 +1,10 @@
 <?php
 
-namespace partridge-rocks\Laracards\Tests;
+namespace PartridgeRocks\LaraCards\Tests;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use partridge-rocks\Laracards\LaracardsServiceProvider;
+use PartridgeRocks\LaraCards\LaracardsServiceProvider;
 
 class TestCase extends Orchestra
 {
@@ -13,7 +13,7 @@ class TestCase extends Orchestra
         parent::setUp();
 
         Factory::guessFactoryNamesUsing(
-            fn (string $modelName) => 'partridge-rocks\\Laracards\\Database\\Factories\\'.class_basename($modelName).'Factory'
+            fn (string $modelName) => 'PartridgeRocks\\LaraCards\\Database\\Factories\\'.class_basename($modelName).'Factory'
         );
     }
 

@@ -34,13 +34,13 @@
     },
     "autoload": {
         "psr-4": {
-            "partridge-rocks\\Laracards\\": "src/",
-            "partridge-rocks\\Laracards\\Database\\Factories\\": "database/factories/"
+            "PartridgeRocks\\LaraCards\\": "src/",
+            "PartridgerRocks\\LaraCards\\Database\\Factories\\": "database/factories/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "partridge-rocks\\Laracards\\Tests\\": "tests/",
+            "PartridgeRocks\\LaraCards\\Tests\\": "tests/",
             "Workbench\\App\\": "workbench/app/"
         }
     },

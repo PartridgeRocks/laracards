@@ -1,5 +1,5 @@
 <?php
 
-use partridge-rocks\Laracards\Tests\TestCase;
+use PartridgeRocks\LaraCards\Tests\TestCase;
 
 uses(TestCase::class)->in(__DIR__);

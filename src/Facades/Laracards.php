@@ -1,16 +1,16 @@
 <?php
 
-namespace partridge-rocks\Laracards\Facades;
+namespace PartridgeRocks\LaraCards\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @see \partridge-rocks\Laracards\Laracards
+ * @see \PartridgeRocks\LaraCards\Laracards
  */
 class Laracards extends Facade
 {
     protected static function getFacadeAccessor(): string
     {
-        return \partridge-rocks\Laracards\Laracards::class;
+        return \PartridgeRocks\LaraCards\Laracards::class;
     }
 }
