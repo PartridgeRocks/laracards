@@ -10,5 +10,4 @@ class Suit extends Model
 {
     use HasFactory;
     use SoftDeletes;
-
 }
