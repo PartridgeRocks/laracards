@@ -13,7 +13,7 @@ class TestCase extends Orchestra
         parent::setUp();
 
         Factory::guessFactoryNamesUsing(
-            fn (string $modelName) => 'PartridgeRocks\\LaraCards\\Database\\Factories\\'.class_basename($modelName).'Factory'
+            fn(string $modelName) => 'PartridgeRocks\\LaraCards\\Database\\Factories\\' . class_basename($modelName) . 'Factory'
         );
     }
 
@@ -24,13 +24,17 @@ class TestCase extends Orchestra
         ];
     }
 
-    public function getEnvironmentSetUp($app)
+    public function getEnvironmentSetUp($app): void
     {
         config()->set('database.default', 'testing');
 
-        /*
-        $migration = include __DIR__.'/../database/migrations/create_laracards_table.php.stub';
-        $migration->up();
-        */
+        // Include and run the 'create_suits_table' migration
+        $suitsMigration = include __DIR__ . '/../database/migrations/000_create_suits_table.php';
+        $suitsMigration->up();
+
+        // Include and run the 'create_cards_table' migration
+        $cardsMigration = include __DIR__ . '/../database/migrations/create_cards_table.php';
+        $cardsMigration->up();
     }
+
 }

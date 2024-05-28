@@ -19,7 +19,8 @@ class LaraCardsServiceProvider extends PackageServiceProvider
             ->name('laraCards')
             ->hasConfigFile()
             ->hasViews()
-            ->hasMigration('create_lara_cards_table')
+            ->hasMigration('create_suits_table')
+            ->hasMigration('create_cards_table')
             ->hasCommand(LaraCardsCommand::class);
     }
 }
