@@ -52,7 +52,7 @@ php artisan vendor:publish --tag="laracards-views"
 ## Usage
 
 ```php
-$laracards = new partridge-rocks\Laracards();
+$laracards = new PartridgeRocks\LaraCards();
 echo $laracards->echoPhrase('Hello, partridge-rocks!');
 ```
 

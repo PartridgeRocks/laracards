@@ -1,6 +1,6 @@
 <?php
 
-namespace partridge-rocks\Laracards\Database\Factories;
+namespace PartridgeRocks\LaraCards\Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
 

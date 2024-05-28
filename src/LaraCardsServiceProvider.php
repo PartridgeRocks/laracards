@@ -16,10 +16,10 @@ class LaraCardsServiceProvider extends PackageServiceProvider
          * More info: https://github.com/spatie/laravel-package-tools
          */
         $package
-            ->name('laracards')
+            ->name('laraCards')
             ->hasConfigFile()
             ->hasViews()
-            ->hasMigration('create_laracards_table')
-            ->hasCommand(LaracardsCommand::class);
+            ->hasMigration('create_lara_cards_table')
+            ->hasCommand(LaraCardsCommand::class);
     }
 }

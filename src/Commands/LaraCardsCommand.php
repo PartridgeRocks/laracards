@@ -1,10 +1,10 @@
 <?php
 
-namespace partridge-rocks\Laracards\Commands;
+namespace PartridgeRocks\LaraCards\Commands;
 
 use Illuminate\Console\Command;
 
-class LaracardsCommand extends Command
+class LaraCardsCommand extends Command
 {
     public $signature = 'laracards';
 

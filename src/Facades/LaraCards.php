@@ -7,7 +7,7 @@ use Illuminate\Support\Facades\Facade;
 /**
  * @see \PartridgeRocks\LaraCards\Laracards
  */
-class Laracards extends Facade
+class LaraCards extends Facade
 {
     protected static function getFacadeAccessor(): string
     {
