@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace partridge-rocks\Laracards\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class LaracardsCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'laracards';
 
     public $description = 'My command';
 
