@@ -2,9 +2,9 @@
 
 namespace PartridgeRocks\LaraCards;
 
+use PartridgeRocks\Laracards\Commands\LaraCardsCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use PartridgeRocks\Laracards\Commands\LaraCardsCommand;
 
 class LaraCardsServiceProvider extends PackageServiceProvider
 {
