@@ -4,7 +4,7 @@ namespace PartridgeRocks\LaraCards\Tests;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use PartridgeRocks\LaraCards\LaracardsServiceProvider;
+use PartridgeRocks\LaraCards\LaraCardsServiceProvider;
 
 class TestCase extends Orchestra
 {
